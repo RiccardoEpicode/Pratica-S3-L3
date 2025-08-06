@@ -1,3 +1,5 @@
+// RICCARDO REALI - EPICODE - 08-06-2025
+
 const form = document.querySelector("form");
 
 const resetBtn = document.getElementById("addBtn");
