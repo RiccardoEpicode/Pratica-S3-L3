@@ -90,6 +90,12 @@ body {
   max-width: 100%;
   width: 425px;
   margin-top: 30px;
+  max-height: 350px;
+  overflow-y: auto;
+}
+
+.tasksDiv::-webkit-scrollbar {
+  display: none;
 }
 
 .list {
@@ -148,4 +154,5 @@ footer {
   text-align: center;
   line-height: 60px;
   color: teal;
+  margin-top: 20px;
 }
