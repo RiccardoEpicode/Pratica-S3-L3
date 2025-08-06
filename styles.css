@@ -76,6 +76,10 @@ body {
   font-weight: 900;
 }
 
+.check {
+  margin-right: 15px;
+}
+
 .task {
   background-color: #f0f0f0;
   padding: 10px 15px;

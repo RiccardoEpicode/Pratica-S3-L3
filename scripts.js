@@ -13,6 +13,19 @@ resetBtn.onclick = form.addEventListener("submit", (e) => {
   const tasks = document.createElement("div");
   tasks.className = "task";
 
+  const checkBx = document.createElement("input");
+  checkBx.type = "checkbox";
+  checkBx.className = "check";
+  tasks.appendChild(checkBx);
+
+  checkBx.onclick = () => {
+    if (checkBx.checked) {
+      pAnswers.style = "text-decoration: line-through";
+    } else {
+      pAnswers.style = "text-decoration: none";
+    }
+  };
+
   const pAnswers = document.createElement("p");
   pAnswers.innerText = inputElement.value;
   pAnswers.className = "pClass";
