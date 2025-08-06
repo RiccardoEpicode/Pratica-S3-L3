@@ -22,6 +22,7 @@ resetBtn.onclick = form.addEventListener("submit", (e) => {
   tasks.className = "task";
 
   //CHECKBOX
+
   const checkBx = document.createElement("input");
   checkBx.type = "checkbox";
   checkBx.className = "check";
