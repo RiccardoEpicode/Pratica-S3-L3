@@ -20,7 +20,8 @@ resetBtn.onclick = form.addEventListener("submit", (e) => {
 
   checkBx.onclick = () => {
     if (checkBx.checked) {
-      pAnswers.style = "text-decoration: line-through";
+      pAnswers.style =
+        "text-decoration: line-through ; text-decoration-color: tomato;";
     } else {
       pAnswers.style = "text-decoration: none";
     }
