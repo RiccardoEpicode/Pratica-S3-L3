@@ -1,0 +1,111 @@
+* {
+  box-sizing: border-box;
+  font-family: cursive;
+}
+
+.banner {
+  max-width: 100%;
+  width: 100%;
+  height: 250px;
+  object-fit: contain;
+  object-position: center;
+}
+
+body {
+  text-align: center;
+  background-color: #9155f0;
+}
+
+.container {
+  display: inline-block;
+  max-width: 100%;
+  margin: 0;
+}
+
+.inputDiv {
+  display: inline-block;
+  background-color: white;
+  border: 2px outset #ccc;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 100%;
+  margin-top: 30px;
+}
+
+#userInput {
+  display: inline-block;
+  background-color: #f0f2f5;
+  width: 60vw;
+  max-width: 300px;
+  height: 40px;
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  color: teal;
+  font-size: 20px;
+}
+
+#addBtn {
+  display: inline-block;
+  height: 40px;
+  padding: 0 20px;
+  margin-left: 10px;
+  background-color: #ccc;
+  color: teal;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  font-weight: 900;
+  font-size: 20px;
+}
+
+.tasksDiv {
+  display: inline-block;
+  background-color: white;
+  border: 2px outset #ccc;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 100%;
+  width: 425px;
+  margin-top: 30px;
+}
+
+.list {
+  font-size: 40px;
+  margin-bottom: 20px;
+  color: teal;
+  font-weight: 900;
+}
+
+.task {
+  background-color: #f0f0f0;
+  padding: 10px 15px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.2);
+  font-size: larger;
+  display: inline-block;
+  width: 100%;
+}
+
+.task p {
+  display: inline-block;
+  margin: 0;
+  max-width: 80%;
+  word-wrap: break-word;
+  vertical-align: middle;
+}
+
+.task button {
+  display: inline-block;
+  border: none;
+  font-size: 20px;
+  vertical-align: middle;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.task button:hover {
+  background-color: springgreen;
+  border: 1px solid black;
+  border-radius: 20%;
+}
